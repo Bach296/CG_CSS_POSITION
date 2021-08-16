@@ -1,0 +1,57 @@
+.header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+}
+
+.taskbar {
+    display: flex;
+    color:red;
+    /* background-color: blue; */
+    margin-left: 300px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-family: serif;
+    flex: 2;
+}
+.taskbar div {
+    margin-left: 20px;
+}
+.content {
+    display: flex;
+    /* position: relative; */
+    left: 0px;
+    top: 84px;
+
+}
+.menu {
+    position: fixed;
+    top: 84px;
+    left: 0px;
+    width: 250px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV5il441yyDdNLlfaheD8IBiRhNV3VJoj4108-o6C67vFTmis07GpmrjNgSP2kKmIF070&usqp=CAU); background-repeat:repeat-y;
+    color: lime;
+    background-color: black;
+}
+.slide {
+    /* background-color: coral; */
+    color: red;
+    position: absolute;
+    top: 84px;
+    left: 250px;
+    z-index: 3;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV5il441yyDdNLlfaheD8IBiRhNV3VJoj4108-o6C67vFTmis07GpmrjNgSP2kKmIF070&usqp=CAU); background-repeat:repeat;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    /* margin-left: 240px; */
+}
+.anh {
+    flex: 1;
+    display: inline;
+}
